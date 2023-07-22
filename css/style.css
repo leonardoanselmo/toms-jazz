@@ -17,6 +17,7 @@ body {
   padding: 0 1rem;  
 }
 
+/* HEADER */
 header, .hero-section, .courses-section, footer {
   border-color: var(--color-black);
   border-style: solid;
@@ -59,6 +60,7 @@ header nav a:nth-child(2n-1) {
   text-transform: uppercase;
 }
 
+/* HERO */
 .hero-section {
   padding-right: 0;
   padding-bottom: 16rem;
@@ -113,6 +115,7 @@ h2 {
   height: 36px;
 }
 
+/* CARDS  */
 .courses-section {
   padding-bottom: 8rem;
 }
@@ -151,6 +154,33 @@ h2 {
   width: fit-content;
 }
 
+/* FOOTER */
+footer {
+  border-bottom: 0;
+  padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+  display: block;
+  padding-left: 0;
+}
+
+.newsletter-form label {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.newsletter-form input {
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  font-size: 1.5rem;
+  padding: .5rem;
+  width: 100%;
+}
+
+footer div img {
+  display: block;
+}
 
 .mt-1 {
   margin-top: 1rem;
